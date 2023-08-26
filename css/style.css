@@ -1,0 +1,520 @@
+html, body{ 
+	overflow-x: hidden; 
+}
+
+
+/*Font start*/
+@font-face{
+	font-family: Roboto-Regular;
+	src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face{
+	font-family: Roboto-Medium;
+	src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face{
+	font-family: Roboto-Bold;
+	src: url(../fonts/Roboto-Bold.ttf);
+}
+/*Font End*/
+
+body{
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+/* Header start */
+header{
+	background-color: black;
+}
+header li{
+	margin-left: 15px !important;
+}
+header li:last-child{
+	margin-left: 0px !important;
+}
+header li a{
+	font-family: Roboto-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+	color: #fff !important;
+	position: relative;
+}
+header li a::after{
+	position: absolute;
+    content: '';
+    width: 0px;
+    height: 2px;
+    background-color: #FDB813;
+    top: 35px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+	transition: 0.3s;
+}
+
+header li a:hover::after{
+	width: 30px;
+}
+.navbar-dark .navbar-toggler {
+    color: rgb(0 0 0 / 0%);
+    border-color: #ffc107;
+}
+
+.logo .sm-logo{
+	width: 90%;
+}
+
+.navbar{
+	padding-bottom: 50px;
+	border-bottom: 1px solid gray;
+}
+
+/* Header End */
+
+/* Hero section start */
+.hero{
+	padding: 220px 0 120px 0;
+	background-color: black;
+}	
+
+.cc-item{
+	color: #fff !important;
+}
+
+.cc-item h1{
+	font-family: Roboto-Bold;
+	font-weight: 700;
+	font-size: 50px;
+	
+}
+
+.cc-item h2{
+	font-family: Roboto-Medium;
+	font-weight: 500;
+	font-size: 26px;
+}
+
+.hero-img img{
+	animation: samnepiche 1.1s linear 0s infinite alternate;
+  	position: relative;
+}
+
+@keyframes samnepiche {
+	0%   {left: 0px; top: 0px;}
+	100% {left: -20px; top: 0px;}
+}
+
+.call-to-action-btn{
+	font-family: Roboto-Medium;
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: 1.8px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 48px;
+	display: inline-block;
+	width: 160px;
+	height: 50px;
+	border: 1px solid #FDB813 !important;
+	color: #FDB813;
+	transition: 0.3s;
+}
+
+.call-to-action-btn:hover{
+	background-color: #FDB813;
+	color: black;
+}
+
+/* Hero section end */
+
+/*About Start*/
+
+.about{
+	padding: 100px 0;
+	background-color: #e5e5e5;
+}
+
+.title{
+	display: inline;
+	padding-bottom: 15px;
+	font-family: Roboto-Bold;
+	font-weight: 700;
+	font-size: 36px;
+	letter-spacing: 1.7px;
+	position: relative;
+}
+
+.title:after{
+	content: "";
+	position: absolute;
+	width: 50px;
+	height: 3px;
+	top: 50px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	background-color: #FDB813;
+}
+
+.sub-title{
+	margin-top: 25px;
+	font-family: Roboto-Regular;
+	font-weight: 400;
+	font-size: 16px;
+	color: #7c7c7c;
+}
+
+.about-desc h2{
+	margin-bottom: 20px;
+	font-family: Roboto-Medium;
+	font-weight: 500;
+	font-size: 20px;
+	color: #000;
+}
+
+.about-desc p{
+	font-family: Roboto-Regular;
+	font-weight: 400;
+	font-size: 16px;
+	color: #7c7c7c;
+}
+
+.social-icon{
+	margin-top: 40px;
+}
+
+.social-icon li{
+	margin-right: 16px !important;
+}
+
+.social-icon li:last-child{
+	margin-right: 0px !important;
+}
+
+.social-icon li a{
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.social-icon li a i{
+	padding: 13px;
+	color: #000;
+	background-color: #FDB813;
+	border-radius: 3px;
+	transition: 0.3s;
+}
+
+.social-icon li a i:hover{
+	color: #FDB813;
+	background-color: #000;
+	transform: scale(1.1);
+}
+
+/*About End*/
+
+/*Service Start*/
+.service{
+	padding: 100px 0;
+	background-color: #000;
+}
+
+.service-desc h2{
+	font-family: Roboto-Medium;
+	font-weight: 500;
+	font-size: 22px;
+	color: #fff;
+}
+
+.service-desc p{
+	color: #7c7c7c;
+	line-height: 20px;
+	letter-spacing: -1px;
+	font-size: 15px;
+}
+
+.service-icon{
+	color: #000;
+	background-color: #FDB813;
+	padding: 40px 20px;
+	border: 1px solid #FDB813;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.service-icon:hover{
+	background-color: transparent;
+	color: #FDB813;
+	/*border: 1px solid #FDB813;*/
+}
+
+.service-desc:hover .service-desc h2{
+	color: #FDB813;
+}
+
+.service-desc:hover{
+	color: red;
+}
+
+.service-icon i{
+	font-size: 60px;
+}
+
+.service-desc-left{
+	text-align: right;
+}
+
+.service-desc{
+	cursor: pointer;
+	border-bottom: 1px solid transparent;
+	transition: 0.3s;
+}
+
+.service-desc:hover{
+	border-bottom: 1px solid #FDB813;
+}
+
+/*Service End*/
+
+/*Feature Start*/
+.feature{
+	background-color: #e5e5e5;
+	padding: 100px 0;
+}
+
+.feature-icon{
+	border: 2px solid #FDB813;
+	border-radius: 5px;
+}
+
+.feature-icon i{
+	font-size: 30px;
+}
+
+.single-feature .feature-icon{
+	padding: 20px 0;
+	background-color: #FDB813;
+}
+
+.feature-desc{
+	border: 1px solid #bfbfbf;
+	border-top: 0;
+	border-radius: 3px;
+}
+
+.feature-desc h2{
+	padding: 30px 0 20px 0;
+	font-family: Roboto-Medium;
+	font-weight: 500;
+	font-size: 20px;
+	color: #000;
+}
+
+.feature-desc p{
+	margin: 0 20px;
+	color: #7c7c7c;
+	letter-spacing: 1.5px;
+}
+
+.feature-desc{
+	padding-bottom: 20px;
+}
+
+.single-feature{
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.single-feature:hover{
+	transform: scale(1.05);
+}
+
+/*Feaure End*/
+
+/*Call to action section start*/
+.call-action{
+	padding: 60px 0;
+	background-color: #000;
+}
+
+.call-action h1{
+	margin-bottom: 20px;
+	font-family: Roboto-Bold;
+	font-weight: 700;
+	font-size: 30px;
+	color: #FDB813;
+}
+
+/*call to action end */
+
+/*Testimonial start*/
+.testimonial{
+	padding: 100px 0;
+	background-color: #e5e5e5;
+}
+
+.testi-single p{
+	font-family: Roboto-Medium;
+	font-weight: 500;
+	font-size: 16px;
+	color: #7c7c7c;
+}
+
+.star-icon i{
+	color: #FDB813; 
+}
+.slick-dots li button:before{
+	margin-top: 10px;
+	font-size: 20px !important;
+}
+/*Testimonial End*/
+
+/*Event start*/
+.event{
+	padding: 100px 0;
+	background-color: #000;
+}
+.event-desc h1{
+	font-family: Roboto-Bold;
+	font-weight: 700;
+	font-size: 30px;
+	color: #FDB813;
+}
+.event-desc p{
+	color: #7c7c7c;
+}
+/*Event End*/
+
+/*Contact Start*/
+.contact{
+	padding: 100px 0;
+	background-color: #e5e5e5;
+}
+
+.contact-form{
+	padding: 20px;
+	background-color: #000;
+	border-radius: 30px;
+}
+
+.contact-form input{
+	background-color: transparent;
+	color: #bfbfbf !important;
+}
+
+.contact-form textarea{
+	background-color: transparent;
+	color: #ffffff !important;
+}
+
+.contact-form .input-field{
+	border-radius: 30px;
+	border-color: #FDB813;
+	padding: 15px;
+	margin-bottom: 30px;
+}
+
+.contact-form .input-field:focus{
+	background-color: transparent;
+	outline: none;
+	box-shadow: none;
+	border-color: #bfbfbf;
+}
+
+
+.contact-form .input-field::placeholder{
+	color: #c7c7c7;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+textarea {
+  resize: none;
+}
+
+.contact-card{
+	background-color: #FDB813;
+	padding-left: 90px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 30px;
+}
+
+.social-icon-c h2{
+	font-family: Roboto-Medium;
+	font-weight: 500;
+	font-size: 22px;
+	color: #000;
+
+}
+
+.social-icon-c a{
+	margin-right: 10px;
+	display: inline-block;
+	text-decoration: none;
+	background-color: #000;
+	border-radius: 50%;
+	color: #FDB813 !important;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	transition: 0.3s;
+}
+
+.social-icon-c a:hover{
+	transform: scale(1.2);
+}
+
+.social-icon-c i{
+	line-height: 42px;
+	font-size: 20px;	
+}
+
+.social-icon-c a:last-child{
+	margin-right: 0px !important;
+}
+/*Contact End*/
+
+/*download-app start*/
+.download-app{
+	padding: 80px 0;
+}
+
+.download-app h2{
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	font-family: Roboto-Bold;
+	font-weight: 700;
+	font-size: 50px;
+	color: #000;
+}
+
+.download-app p{
+	margin-top: 30px;
+	font-family: Roboto-Regular;
+	font-weight: 500;
+	font-size: 16px;
+	color: #000;
+}
+/*download-app end*/
+
+/*Footer Start*/
+footer{
+	background-color: #000;
+	padding: 30px 0;
+	color: #6c6c6c;
+}
+
+footer a{
+	text-decoration: none;
+	color: #fdb813;
+	transition: 0.3s;
+}
+footer a:hover{
+	color: #bfbfbf;
+}
+/*Footer End*/

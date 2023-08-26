@@ -1,0 +1,253 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px){
+    
+    .title{
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+    .sub-title{
+        margin-top: 50px;
+    }
+    /* Header Start */
+    .logo{ 
+        width: 80%;
+        padding: 20px 0;
+    }
+    header ul {
+        text-align: center;
+    }
+    header li{
+        margin-left: 0px !important;
+    }
+    /* Header End */
+
+    /*hero section start*/
+    .hero{
+        padding: 140px 0 80px 0;
+    }
+    .cc-item h1{
+        font-size: 40px;
+    }
+    /*hero section end*/    
+    /*About Start*/
+    .about{
+        padding: 50px 0;
+    }
+    /*About End*/
+    /*service start*/
+    .service{
+        padding: 50px 0;
+    }
+    .service-icon{
+        background-color: transparent;
+        padding: 10px 20px;
+        border: 0;
+    }
+    .service-icon i{
+        padding: 15px;
+        background-color: #FDB813;
+        color: #000;
+        font-size: 40px;
+    }
+    .service-desc-left-sm{
+        text-align: center;
+    }
+    .service-desc-right-sm{
+        text-align: center;
+    }
+    /*service end*/
+    /*feature start*/
+    .feature{
+        padding: 50px 0;
+    }
+    /*feature end*/
+    /*Call action start*/
+    .call-action{
+        padding: 35px 0;
+    }
+    /*call action end*/
+    /*Testimonial start*/
+    .testimonial{
+        padding: 50px 0;
+    }
+    /*Testimonial End*/
+    /*Event Start*/
+    .event{
+        padding: 50px 0;
+    }
+    /*Event End*/
+    /*contact start*/
+    .contact-card{
+        padding-left: 70px;
+    }
+    /*contact End*/
+    /*contact start*/
+    .contact{
+        padding: 50px 0;
+    }
+    /*contact end*/
+    /*download app start*/
+    .download-app{
+        padding: 35px 0;
+    }
+    .download-app h2{
+        font-size: 40px;
+    }
+    /*download app end*/
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Header Start */
+    header ul {
+        text-align: center;
+    }
+    header li{
+        margin-left: 0px !important;
+    }
+    /* Header End */
+
+    /*hero section start*/
+    .hero{
+        padding: 160px 0 90px 0;
+    }
+    .cc-item h1{
+        font-size: 40px;
+    }
+    /*hero section end*/
+    /*About Start*/
+    .about{
+        padding: 60px 0;
+    }
+    /*About End*/
+    /*Service start*/
+    .service{
+        padding: 60px 0;
+    }
+    .service-desc-left-sm{
+        text-align: left;
+    }
+    .service-desc-right-sm{
+        text-align: right;
+    }
+    /*service end*/
+    /*feature start*/
+    .feature{
+        padding: 60px 0;
+    }
+    /*feature end*/
+    /*Call action start*/
+    .call-action{
+        padding: 40px 0;
+    }
+    /*call action end*/
+    /*Testimonial start*/
+    .testimonial{
+        padding: 60px 0;
+    }
+    /*Testimonial End*/
+    /*Event Start*/
+    .event{
+        padding: 60px 0;
+    }
+    .event-desc h1{
+        font-size: 22px;
+    }
+    /*Event End*/
+    /*contact start*/
+    .contact{
+        padding: 60px 0;
+    }
+    /*contact end*/
+    /*download app start*/
+    .download-app{
+        padding: 40px 0;
+    }
+    /*download app end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/                  
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* Header Start */
+    header ul {
+        text-align: center;
+    }
+    header li{
+        margin-left: 0px !important;
+    }
+    /* Header End */
+
+    /*hero section start*/
+    .hero{
+        padding: 180px 0 100px 0;
+    }
+    /*hero section end*/
+    /*About Start*/
+    .about{
+        padding: 70px 0;
+    }
+    /*About End*/
+    /*Service start*/
+    .service{
+        padding: 70px 0;
+    }
+    .service-desc-left-sm{
+        text-align: left;
+    }
+    .service-desc-right-sm{
+        text-align: right;
+    }
+    /*service end*/
+    /*feature start*/
+    .feature{
+        padding: 70px 0;
+    }
+    /*feature end*/
+    /*Call action start*/
+    .call-action{
+        padding: 50px 0;
+    }
+    /*call action end*/
+    /*Testimonial start*/
+    .testimonial{
+        padding: 70px 0;
+    }
+    /*Testimonial End*/
+    /*Event Start*/
+    .event{
+        padding: 70px 0;
+    }
+    /*Event End*/
+    /*contact start*/
+    .contact{
+        padding: 70px 0;
+    }
+    /*contact end*/
+    /*download app start*/
+    .download-app{
+        padding: 50px 0;
+    }
+    /*download app end*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*contact start*/
+    .contact-card{
+        padding-left: 70px;
+    }
+    /*contact End*/
+}
+
+/*X large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	
+}
+
+/*XX Large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+}
+
